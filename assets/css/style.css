@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(/assets/images/wallpaper.jpgS);
+	background-size: 100%;
+}
+
+button{
+	background-color: #5D9899;
+	color: white;
+	margin: 5px;
+}
+
+p{
+	color: white;
+	font-family: georgia;
+	text-align: center;
+}
+
+img{
+	margin: 5px;
+	float: left;
+}
+
+.buttonBank {
+	padding: 20px;
+	text-align: center;
+}
+.searchButton{
+	margin: 5px;
+	background-color: rgba(230, 126, 34, 1);
+	color: #FCF3CF;
+}
+.gifSearch{
+	float: left;
+	margin: 20px 10px;
+}
+.createButton{
+	margin-top: 10px;
+	background-color: #c0ca33;
+}
+.putGifsHere{
+	margin-top: 3%; 
+	margin-right: 14%;
+	margin-left: 3%;
+
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+}
+#tvFrame{
+	width: 100%;
+	z-index: 0;
+}
+.searchButton:hover{
+	cursor: pointer;
+	background-color: #F0B27A;
+}
+button:hover {
+	cursor: pointer;
+}
+
+.gif:hover {
+	cursor: pointer;
+}
+
+.createButton:hover {
+	background-color: #9e9d24;
+}
